@@ -66,7 +66,7 @@ function filterItems(arr, query) {
   return arr.filter((el) => el.toLowerCase().includes(query.toLowerCase()));
 }
 
-console.log(filterItems(fruits, "ap"));  
-console.log(filterItems(fruits, "an")); 
+console.log(filterItems(car, "ap"));  
+console.log(filterItems(car, "an")); 
 
 // filter
